@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MovingAppScreen2</string>
+    <string name="title_activity_selecttransition">Selecttransition</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

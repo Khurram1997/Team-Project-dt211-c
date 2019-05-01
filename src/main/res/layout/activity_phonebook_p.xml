@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhonebookP"
+    android:background="#ffffff"
+
+    >
+
+    <!--Phonebook page main heading-->
+    <TextView
+        android:id="@+id/PhonebookH"
+        android:text="Phonebook"
+        android:textColor="@android:color/black"
+        android:textSize="45sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="20%"
+        app:layout_marginRightPercent="15%"
+        app:layout_marginTopPercent="0%"
+        app:layout_widthPercent="60%"
+
+        />
+
+    <!--Phonebook page "Add Contact" heading-->
+    <TextView
+        android:id="@+id/AddContactH"
+        android:text="Add Contact"
+        android:textColor="@color/colorAccent"
+        android:textSize="38sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginRightPercent="15%"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="60%"
+
+        />
+
+    <!--Help button to read out instructions-->
+    <Button
+        android:id="@+id/sayit10"
+        android:text="?"
+        android:textSize="20sp"
+
+        android:background="@android:color/holo_blue_dark"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="78%"
+        app:layout_marginTopPercent="90%"
+        percent:layout_widthPercent="20%"
+
+        />
+
+    <!--Backbutton to go back to the College or House Transition page-->
+    <ImageButton
+        android:id="@+id/BackbuttonP"
+        app:srcCompat="@drawable/backbutton"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="78%"
+        app:layout_marginTopPercent="90%"
+        app:layout_widthPercent="14%"
+
+        />
+
+    <!--INSTRUCTIONS-->
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="93dp"
+        android:layout_height="76dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:text='This is the Phonebook page. You can add a contact which will be added to the phonebook in your phone. Enter the details and tap "Add Contact"'
+        android:visibility="invisible"
+
+        />
+
+    <!--Name icon beside field for user to enter the first name of the contact they want to save-->
+    <ImageView
+        android:id="@+id/fNameicon"
+        app:srcCompat="@drawable/nameicon"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginRightPercent="78%"
+        app:layout_marginTopPercent="22%"
+        app:layout_widthPercent="18%"
+
+        />
+    <EditText
+        android:id="@+id/txtFirstname"
+        android:hint="Enter a first name"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="25%"
+        app:layout_marginRightPercent="15%"
+        app:layout_marginTopPercent="24%"
+        app:layout_widthPercent="60%"
+
+        />
+
+    <!--Name icon beside field for user to enter the second name of the contact they want to save-->
+    <ImageView
+        android:id="@+id/sNameicon"
+        app:srcCompat="@drawable/nameicon"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginRightPercent="78%"
+        app:layout_marginTopPercent="38%"
+        app:layout_widthPercent="18%"
+
+        />
+    <EditText
+        android:id="@+id/txtLastname"
+        android:hint="Enter a last name"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="25%"
+        app:layout_marginRightPercent="15%"
+        app:layout_marginTopPercent="40%"
+        app:layout_widthPercent="60%"
+
+        />
+
+
+    <!--Phone icon beside field for user to enter a phone number of the contact they want to save-->
+    <ImageView
+        android:id="@+id/phoneicon"
+        app:srcCompat="@drawable/phoneicon"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginRightPercent="78%"
+        app:layout_marginTopPercent="55%"
+        app:layout_widthPercent="18%"
+
+        />
+    <EditText
+        android:id="@+id/txtTelephone"
+        android:hint="Enter a phone number"
+        android:inputType="phone"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="25%"
+        app:layout_marginRightPercent="15%"
+        app:layout_marginTopPercent="57%"
+        app:layout_widthPercent="60%"
+
+        />
+
+
+    <!--Email icon beside field for user to enter a person's email address-->
+    <ImageView
+        android:id="@+id/emailicon"
+        app:layout_heightPercent="10%"
+
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginRightPercent="78%"
+        app:layout_marginTopPercent="70%"
+        app:layout_widthPercent="18%"
+        app:srcCompat="@drawable/emailicon"
+
+        />
+    <EditText
+        android:id="@+id/txtEmail"
+        android:hint="Enter an email address"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="25%"
+        app:layout_marginRightPercent="15%"
+        app:layout_marginTopPercent="72%"
+        app:layout_widthPercent="60%"
+
+        />
+
+    <!--Add contact button to add a contact the user's local contacts-->
+    <!--<Button
+        android:id="@+id/btnAdd_Contact_onClick"
+        android:background="@color/colorAccent"
+
+        android:text="Add Contact"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="38%"
+        app:layout_marginRightPercent="40%"
+        app:layout_marginTopPercent="82%"
+
+        app:layout_widthPercent="100%"
+
+        />-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"
+        android:id="@+id/btnAdd_Contact"
+        android:onClick="btnAdd_Contact_onClick"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp"
+        />
+
+</android.support.percent.PercentRelativeLayout>

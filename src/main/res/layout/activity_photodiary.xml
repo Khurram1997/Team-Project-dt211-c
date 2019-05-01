@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Photodiary">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+
+        app:layout_heightPercent="40%"
+        app:layout_marginLeftPercent="2%"
+        app:layout_marginRightPercent="15%"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="100%"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="Photo Diary"
+
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="25%"
+        app:layout_marginRightPercent="15%"
+        app:layout_marginTopPercent="0%"
+        app:layout_widthPercent="100%"
+
+        />
+
+    <!--Help button to speak out instructions-->
+    <Button
+        android:id="@+id/sayit6"
+        android:text="?"
+        android:textSize="20sp"
+
+        android:background="@android:color/holo_blue_dark"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="78%"
+        app:layout_marginTopPercent="90%"
+        percent:layout_widthPercent="20%"
+
+        />
+
+    <ImageButton
+        android:id="@+id/PDbackbutton"
+        app:srcCompat="@drawable/backbutton"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="78%"
+        app:layout_marginTopPercent="90%"
+        app:layout_widthPercent="14%"
+
+        />
+
+</android.support.percent.PercentRelativeLayout>

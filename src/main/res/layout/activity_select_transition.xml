@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <!--Main Heading-->
+    <TextView
+        android:id="@+id/transitionH"
+        android:text="Moving"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="18%"
+        app:layout_marginLeftPercent="30%"
+        app:layout_marginRightPercent="25%"
+        app:layout_marginTopPercent="0%"
+        app:layout_widthPercent="100%"
+
+        />
+
+    <!--Help Button-->
+    <Button
+        android:id="@+id/sayit"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+
+        android:text="?"
+        android:textSize="20sp"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="78%"
+
+        app:layout_marginTopPercent="90%"
+        percent:layout_widthPercent="20%" />
+
+    <!--Instructions (Bottom left of screen)-->
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="93dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="Welcome to, the Moving App. Are You moving House or College."
+        android:visibility="invisible"
+
+        />
+
+    <!--"House" heading-->
+    <TextView
+        android:id="@+id/HousingH"
+        android:text="House"
+        android:textColor="@android:color/black"
+        android:textSize="63sp"
+
+        android:textStyle="bold"
+        app:layout_heightPercent="12%"
+        app:layout_marginLeftPercent="26%"
+        app:layout_marginRightPercent="20%"
+        app:layout_marginTopPercent="40%"
+
+        app:layout_widthPercent="100%" />
+
+    <!--House Icon Button-->
+    <ImageButton
+        android:id="@+id/imageButton_tHouse"
+        app:srcCompat="@drawable/house"
+
+        app:layout_widthPercent="26%"
+        app:layout_heightPercent="13%"
+        app:layout_marginTopPercent="25%"
+        app:layout_marginLeftPercent="35%"
+        app:layout_marginRightPercent="35%"
+
+        />
+
+    <!--"College" Heading-->
+    <TextView
+        android:id="@+id/CollegeH"
+        android:text="College"
+        android:textColor="@android:color/black"
+        android:textSize="63sp"
+        android:textStyle="bold"
+        app:layout_heightPercent="13%"
+
+        app:layout_marginLeftPercent="24%"
+        app:layout_marginRightPercent="10%"
+        app:layout_marginTopPercent="75%"
+        app:layout_widthPercent="100%"
+        tools:text="College"
+
+        />
+
+    <!--College Icon Button-->
+    <ImageButton
+        android:id="@+id/imageButton_tCollege"
+        app:srcCompat="@drawable/college"
+
+        app:layout_widthPercent="25%"
+        app:layout_heightPercent="13%"
+        app:layout_marginTopPercent="60%"
+        app:layout_marginLeftPercent="35%"
+        app:layout_marginRightPercent="25%"
+
+        />
+
+</android.support.percent.PercentRelativeLayout>

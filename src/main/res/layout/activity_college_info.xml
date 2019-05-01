@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CollegeInfo"
+    android:background="#ffffff"
+    >
+
+    <!--Trinity College page heading-->
+    <TextView
+        android:id="@+id/TrinityCH"
+        android:text="Trinity College"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="42sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="18%"
+        app:layout_marginRightPercent="5%"
+        app:layout_marginTopPercent="0%"
+        app:layout_widthPercent="100%"
+
+        />
+
+    <!--Help button to speak out instructions-->
+    <Button
+        android:id="@+id/sayit8"
+        android:text="?"
+        android:textSize="20sp"
+
+        android:background="@android:color/holo_blue_dark"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="78%"
+        app:layout_marginTopPercent="90%"
+        percent:layout_widthPercent="20%"
+
+        />
+
+    <!--INSTRUCTIONS-->
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="93dp"
+        android:layout_height="76dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:text='This is the College information page. Important Information is listed below. You can tap the bif button to open the website to view "The Trinity Centre for People with Intellectual Dissabilities"'
+        android:visibility="invisible"
+
+        />
+
+    <!--"Address:" heading-->
+    <TextView
+        android:id="@+id/AddressH"
+        android:text="Address/Contact:"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="0%"
+        app:layout_marginRightPercent="2%"
+        app:layout_marginTopPercent="12%"
+        app:layout_widthPercent="100%"
+
+        />
+
+    <!--Address info of Trinity-->
+    <TextView
+        android:id="@+id/TCaddress"
+        android:text="- 3 College Green, Dublin 2"
+        android:textColor="@android:color/black"
+        android:textSize="23sp"
+
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginRightPercent="2%"
+        app:layout_marginTopPercent="18%"
+        app:layout_widthPercent="100%"
+
+        />
+    <!--Contact info of Trinity-->
+    <TextView
+        android:id="@+id/TCcontact"
+        android:text="- +353-1-896-3879  tcpid@tcd.ie "
+
+        android:textColor="@android:color/black"
+        android:textSize="23sp"
+        percent:layout_heightPercent="6%"
+        percent:layout_marginLeftPercent="5%"
+        percent:layout_marginRightPercent="2%"
+
+        percent:layout_marginTopPercent="25%"
+        percent:layout_widthPercent="100%"
+
+        />
+
+    <!--"Courses:" heading-->
+    <TextView
+        android:id="@+id/UndergCourses"
+        android:text="Courses:"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="0%"
+        app:layout_marginRightPercent="2%"
+        app:layout_marginTopPercent="32%"
+        app:layout_widthPercent="100%"
+
+        />
+
+    <!--Courses list 1-->
+    <TextView
+        android:id="@+id/Undergraduate1"
+        android:text="Level 5 Certificate in Arts, Science and Inclusive Applied Practice"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginRightPercent="2%"
+        app:layout_marginTopPercent="38%"
+        app:layout_widthPercent="100%"
+
+        />
+
+    <!--"Facilities:" heading-->
+    <TextView
+        android:id="@+id/FacilitiesH"
+        android:text="Facilities:"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="0%"
+        app:layout_marginRightPercent="2%"
+        app:layout_marginTopPercent="50%"
+        app:layout_widthPercent="100%"
+
+        />
+
+    <!--Facilities Info-->
+    <TextView
+        android:id="@+id/FacilitiesInfo"
+        android:text="Trinity Centre for People with Intellectual Disabilities (TCPID) situated within the School of Education"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+
+        app:layout_heightPercent="20%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginRightPercent="2%"
+        app:layout_marginTopPercent="55%"
+        app:layout_widthPercent="100%"
+
+        />
+
+    <!--Button to take you two Trinity colleges website-->
+    <Button
+        android:id="@+id/webbutton2"
+        android:background="@color/colorAccent"
+        android:onClick="open"
+        android:text="Open Trinity College  Website"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="14%"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginRightPercent="95%"
+        app:layout_marginTopPercent="75%"
+        app:layout_widthPercent="80%"
+
+        />
+
+    <!--Tap logo, indication to tap-->
+
+    <!--Backbutton to go back to Moving College page-->
+    <ImageButton
+        android:id="@+id/backbuttonMC"
+        app:srcCompat="@drawable/backbutton"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="78%"
+        app:layout_marginTopPercent="90%"
+        app:layout_widthPercent="14%"
+
+        />
+
+</android.support.percent.PercentRelativeLayout>

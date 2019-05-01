@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".HousingTransition" >
+
+    <!--HELP button-->
+    <Button
+        android:id="@+id/sayit2"
+        android:layout_height="wrap_content"
+        android:text="?"
+
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="78%"
+        app:layout_marginTopPercent="90%"
+        percent:layout_widthPercent="20%"
+
+        />
+
+    <!--"Moving House" Heading-->
+    <TextView
+        android:id="@+id/MovingHouseh"
+        android:text="Moving House"
+        android:textColor="@android:color/black"
+        android:textSize="38sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="12%"
+        app:layout_marginLeftPercent="19%"
+        app:layout_marginRightPercent="15%"
+        app:layout_marginTopPercent="0%"
+        app:layout_widthPercent="100%"
+
+        />
+
+    <!--Instructions-->
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="93dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="You have selected, the Moving House change. This is the Moving House page, please select from one of the following options. Tap Moving for Houses and Checklists. Tap Photo Diary for photos. Tap Phonebook for contacts. Tap Maps to find places in your area."
+        android:visibility="invisible"
+
+        />
+
+    <!--House Icon Button-->
+    <ImageButton
+        android:id="@+id/imageButton_MovingHouse"
+        app:srcCompat="@drawable/house"
+
+        app:layout_widthPercent="25%"
+        app:layout_heightPercent="13%"
+        app:layout_marginTopPercent="14%"
+        app:layout_marginLeftPercent="37%"
+        app:layout_marginRightPercent="75%"
+
+        />
+
+    <!--Moving heading under House icon button-->
+    <TextView
+        android:id="@+id/Moving"
+        android:text="Moving House"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="22%"
+        app:layout_marginRightPercent="80%"
+        app:layout_marginTopPercent="30%"
+        app:layout_widthPercent="84%"
+
+        />
+
+    <!--Phonebook icon button-->
+    <ImageButton
+        android:id="@+id/phonebook"
+        app:srcCompat="@drawable/phonebook"
+
+        app:layout_widthPercent="22%"
+        app:layout_heightPercent="12%"
+        app:layout_marginTopPercent="42%"
+        app:layout_marginLeftPercent="63%"
+        app:layout_marginRightPercent="75%"
+
+        />
+
+    <!--Phonebook heading under Phonebook icon button-->
+    <TextView
+        android:id="@+id/PhonebookH"
+        android:text="Phonebook"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="52%"
+        app:layout_marginRightPercent="68%"
+        app:layout_marginTopPercent="58%"
+        app:layout_widthPercent="70%"
+
+        />
+
+    <!--Photodiary icon button-->
+    <ImageButton
+        android:id="@+id/Photodiary"
+        app:srcCompat="@drawable/photodiary"
+
+        app:layout_widthPercent="22%"
+        app:layout_heightPercent="12%"
+        app:layout_marginTopPercent="42%"
+        app:layout_marginLeftPercent="12%"
+        app:layout_marginRightPercent="95%"
+
+        />
+
+    <!--Photodiary heading under Photodiary icon button-->
+    <TextView
+        android:id="@+id/PhotodiaryH"
+        android:text="Photodiary"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="0%"
+        app:layout_marginRightPercent="38%"
+        app:layout_marginTopPercent="58%"
+        app:layout_widthPercent="70%"
+
+        />
+
+    <!--Maps icon button-->
+    <ImageButton
+        android:id="@+id/Maps"
+        app:srcCompat="@drawable/maps"
+
+        app:layout_widthPercent="23%"
+        app:layout_heightPercent="13%"
+        app:layout_marginTopPercent="70%"
+        app:layout_marginLeftPercent="37%"
+        app:layout_marginRightPercent="75%"
+
+        />
+
+    <!--Maps heading under Map icon button-->
+    <TextView
+        android:id="@+id/MapsH"
+        android:text="Maps"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="38%"
+        app:layout_marginRightPercent="63%"
+        app:layout_marginTopPercent="86%"
+        app:layout_widthPercent="46%"
+
+        />
+
+    <!--A back button to go back to "Select Transition" page-->
+    <ImageButton
+        android:id="@+id/BackbuttonP"
+        app:srcCompat="@drawable/backbutton"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="78%"
+        app:layout_marginTopPercent="90%"
+        app:layout_widthPercent="14%"
+
+        />
+
+</android.support.percent.PercentRelativeLayout>

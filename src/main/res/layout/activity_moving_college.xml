@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovingCollege"
+    android:background="#ffffff"
+    >
+
+        <!--Moving College heading-->
+    <TextView
+        android:id="@+id/MCollegeh"
+        android:text="College"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="11%"
+        app:layout_marginLeftPercent="25%"
+        app:layout_marginRightPercent="15%"
+        app:layout_marginTopPercent="0%"
+        app:layout_widthPercent="60%"
+
+        />
+
+        <!--Help button-->
+        <Button
+            android:id="@+id/sayit7"
+            android:text="?"
+
+            android:background="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            app:layout_heightPercent="8%"
+            app:layout_marginLeftPercent="78%"
+            app:layout_marginTopPercent="90%"
+            percent:layout_widthPercent="20%"
+
+            />
+
+        <!--INSTRUCTIONS-->
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="93dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="This is the College page. Tap the tick to go to the College Checklist. Or tap the picture of Trinity to see information about Trinity College."
+        android:visibility="invisible"
+
+        />
+
+        <!--Checklist heading-->
+    <TextView
+        android:id="@+id/checklistH"
+        android:text="Checklist"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="45sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="20%"
+        app:layout_marginRightPercent="95%"
+        app:layout_marginTopPercent="32%"
+        app:layout_widthPercent="65%"
+
+        />
+
+        <!--Checklist button to go to College checklist-->
+        <ImageButton
+            android:id="@+id/checklistbutton2"
+            app:srcCompat="@drawable/check"
+
+            app:layout_heightPercent="9%"
+            app:layout_marginLeftPercent="38%"
+            app:layout_marginRightPercent="78%"
+            app:layout_marginTopPercent="20%"
+            app:layout_widthPercent="17%"
+
+            />
+
+
+        <!--Trinity College heading-->
+    <TextView
+        android:id="@+id/TrinityCH"
+        android:text="trinity"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="12%"
+        app:layout_marginLeftPercent="28%"
+        app:layout_marginRightPercent="75%"
+        app:layout_marginTopPercent="75%"
+        app:layout_widthPercent="100%"
+
+        />
+
+        <!--Trinity Image Button to go to College Info page-->
+        <ImageButton
+            android:id="@+id/imageButton_tCollege"
+            app:srcCompat="@drawable/trinitycollege"
+
+            app:layout_heightPercent="15%"
+            app:layout_marginLeftPercent="13%"
+            app:layout_marginRightPercent="95%"
+            app:layout_marginTopPercent="55%"
+            app:layout_widthPercent="75%"
+
+            />
+
+        <!--Backbutton to go back to College Transistion-->
+        <ImageButton
+            android:id="@+id/BackbuttonP"
+            app:srcCompat="@drawable/backbutton"
+
+            app:layout_heightPercent="8%"
+            app:layout_marginLeftPercent="4%"
+            app:layout_marginRightPercent="78%"
+            app:layout_marginTopPercent="90%"
+            app:layout_widthPercent="14%"
+
+            />
+
+</android.support.percent.PercentRelativeLayout>
