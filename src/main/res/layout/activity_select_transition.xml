@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff" >
+    android:background="#ffffff">
 
     <!--Main Heading-->
     <TextView
@@ -19,9 +19,7 @@
         app:layout_marginLeftPercent="30%"
         app:layout_marginRightPercent="25%"
         app:layout_marginTopPercent="0%"
-        app:layout_widthPercent="100%"
-
-        />
+        app:layout_widthPercent="100%"/>
 
     <!--Help Button-->
     <Button
@@ -35,11 +33,11 @@
         app:layout_marginLeftPercent="78%"
 
         app:layout_marginTopPercent="90%"
-        percent:layout_widthPercent="20%" />
+        percent:layout_widthPercent="20%"/>
 
     <!--Instructions (Bottom left of screen)-->
     <TextView
-        android:id="@+id/tv"
+        android:id="@+id/tvpd"
         android:layout_width="93dp"
         android:layout_height="76dp"
         android:layout_alignParentStart="true"
@@ -49,9 +47,7 @@
         android:layout_marginLeft="0dp"
         android:layout_marginBottom="0dp"
         android:text="Welcome to, the Moving App. Are You moving House or College."
-        android:visibility="invisible"
-
-        />
+        android:visibility="invisible" />
 
     <!--"House" heading-->
     <TextView
@@ -77,9 +73,7 @@
         app:layout_heightPercent="13%"
         app:layout_marginTopPercent="25%"
         app:layout_marginLeftPercent="35%"
-        app:layout_marginRightPercent="35%"
-
-        />
+        app:layout_marginRightPercent="35%" />
 
     <!--"College" Heading-->
     <TextView
@@ -94,9 +88,7 @@
         app:layout_marginRightPercent="10%"
         app:layout_marginTopPercent="75%"
         app:layout_widthPercent="100%"
-        tools:text="College"
-
-        />
+        tools:text="College"/>
 
     <!--College Icon Button-->
     <ImageButton
@@ -107,8 +99,6 @@
         app:layout_heightPercent="13%"
         app:layout_marginTopPercent="60%"
         app:layout_marginLeftPercent="35%"
-        app:layout_marginRightPercent="25%"
-
-        />
+        app:layout_marginRightPercent="25%" />
 
 </android.support.percent.PercentRelativeLayout>

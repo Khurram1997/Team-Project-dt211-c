@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="khurramfarooq.example.com.movingappscreen2">
+    package="khurramfarooq.example.com.movingapp">
+
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the 'MyLocation' functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- FOR CONTACTS: ADDING AND READING TO/FROM CONTACTS ON PHONE -->
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -18,7 +27,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ToDoList"></activity>
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -32,31 +41,26 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Maps"
-            android:label="@string/title_activity_maps" />
-        <activity android:name=".CollegeInfo" />
-        <activity android:name=".PhonebookP" />
-        <activity android:name=".HousingTransition" />
-        <activity android:name=".HousingChecklist" />
-        <activity android:name=".SelectTransition">
+            android:name="khurramfarooq.example.com.movingapp.Maps"
+            android:label="@string/title_activity_maps"></activity>
+        <activity android:name="khurramfarooq.example.com.movingapp.ToDoList" /> <!-- FOR MAPS SCREEN -->
+        <activity android:name="khurramfarooq.example.com.movingapp.CollegeInfo" />
+        <activity android:name="khurramfarooq.example.com.movingapp.Photodiary" />
+        <activity android:name="khurramfarooq.example.com.movingapp.AddPhoneContactActivity" />
+        <activity android:name="khurramfarooq.example.com.movingapp.ListPhoneContactsActivity" />
+        <activity android:name="khurramfarooq.example.com.movingapp.HousingTransition" />
+        <activity android:name="khurramfarooq.example.com.movingapp.HousingChecklist" />
+        <activity android:name="khurramfarooq.example.com.movingapp.SelectTransition">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
-
-        <activity android:name=".MovingHouse" />
-        <activity android:name=".Photodiary" />
-        <activity android:name=".CollegeTransition" />
-        <activity android:name=".MovingCollege" />
-        <activity android:name=".CollegeChecklist" />
-        <activity android:name=".ToDoList" />
-
+        <activity android:name="khurramfarooq.example.com.movingapp.MovingHouse" />
+        <activity android:name="khurramfarooq.example.com.movingapp.CollegeTransition" />
+        <activity android:name="khurramfarooq.example.com.movingapp.MovingCollege" />
+        <activity android:name="khurramfarooq.example.com.movingapp.CollegeChecklist" />
     </application>
 
 </manifest>

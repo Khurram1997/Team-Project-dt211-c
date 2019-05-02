@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".HousingTransition" >
+    tools:context=".HousingTransition">
 
     <!--HELP button-->
     <Button
@@ -19,9 +19,7 @@
         app:layout_heightPercent="8%"
         app:layout_marginLeftPercent="78%"
         app:layout_marginTopPercent="90%"
-        percent:layout_widthPercent="20%"
-
-        />
+        percent:layout_widthPercent="20%"/>
 
     <!--"Moving House" Heading-->
     <TextView
@@ -35,9 +33,7 @@
         app:layout_marginLeftPercent="19%"
         app:layout_marginRightPercent="15%"
         app:layout_marginTopPercent="0%"
-        app:layout_widthPercent="100%"
-
-        />
+        app:layout_widthPercent="100%"/>
 
     <!--Instructions-->
     <TextView
@@ -51,9 +47,7 @@
         android:layout_marginLeft="0dp"
         android:layout_marginBottom="0dp"
         android:text="You have selected, the Moving House change. This is the Moving House page, please select from one of the following options. Tap Moving for Houses and Checklists. Tap Photo Diary for photos. Tap Phonebook for contacts. Tap Maps to find places in your area."
-        android:visibility="invisible"
-
-        />
+        android:visibility="invisible"/>
 
     <!--House Icon Button-->
     <ImageButton
@@ -64,9 +58,7 @@
         app:layout_heightPercent="13%"
         app:layout_marginTopPercent="14%"
         app:layout_marginLeftPercent="37%"
-        app:layout_marginRightPercent="75%"
-
-        />
+        app:layout_marginRightPercent="75%"/>
 
     <!--Moving heading under House icon button-->
     <TextView
@@ -81,9 +73,7 @@
         app:layout_marginLeftPercent="22%"
         app:layout_marginRightPercent="80%"
         app:layout_marginTopPercent="30%"
-        app:layout_widthPercent="84%"
-
-        />
+        app:layout_widthPercent="84%"/>
 
     <!--Phonebook icon button-->
     <ImageButton
@@ -94,9 +84,7 @@
         app:layout_heightPercent="12%"
         app:layout_marginTopPercent="42%"
         app:layout_marginLeftPercent="63%"
-        app:layout_marginRightPercent="75%"
-
-        />
+        app:layout_marginRightPercent="75%"/>
 
     <!--Phonebook heading under Phonebook icon button-->
     <TextView
@@ -111,9 +99,7 @@
         app:layout_marginLeftPercent="52%"
         app:layout_marginRightPercent="68%"
         app:layout_marginTopPercent="58%"
-        app:layout_widthPercent="70%"
-
-        />
+        app:layout_widthPercent="70%"/>
 
     <!--Photodiary icon button-->
     <ImageButton
@@ -124,9 +110,7 @@
         app:layout_heightPercent="12%"
         app:layout_marginTopPercent="42%"
         app:layout_marginLeftPercent="12%"
-        app:layout_marginRightPercent="95%"
-
-        />
+        app:layout_marginRightPercent="95%"/>
 
     <!--Photodiary heading under Photodiary icon button-->
     <TextView
@@ -141,9 +125,7 @@
         app:layout_marginLeftPercent="0%"
         app:layout_marginRightPercent="38%"
         app:layout_marginTopPercent="58%"
-        app:layout_widthPercent="70%"
-
-        />
+        app:layout_widthPercent="70%"/>
 
     <!--Maps icon button-->
     <ImageButton
@@ -154,9 +136,7 @@
         app:layout_heightPercent="13%"
         app:layout_marginTopPercent="70%"
         app:layout_marginLeftPercent="37%"
-        app:layout_marginRightPercent="75%"
-
-        />
+        app:layout_marginRightPercent="75%"/>
 
     <!--Maps heading under Map icon button-->
     <TextView
@@ -171,9 +151,7 @@
         app:layout_marginLeftPercent="38%"
         app:layout_marginRightPercent="63%"
         app:layout_marginTopPercent="86%"
-        app:layout_widthPercent="46%"
-
-        />
+        app:layout_widthPercent="46%"/>
 
     <!--A back button to go back to "Select Transition" page-->
     <ImageButton
@@ -184,8 +162,6 @@
         app:layout_marginLeftPercent="4%"
         app:layout_marginRightPercent="78%"
         app:layout_marginTopPercent="90%"
-        app:layout_widthPercent="14%"
-
-        />
+        app:layout_widthPercent="14%"/>
 
 </android.support.percent.PercentRelativeLayout>

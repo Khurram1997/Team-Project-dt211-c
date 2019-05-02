@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CollegeInfo"
-    android:background="#ffffff"
-    >
+    android:background="#ffffff">
 
     <!--Trinity College page heading-->
     <TextView
@@ -22,9 +21,7 @@
         app:layout_marginLeftPercent="18%"
         app:layout_marginRightPercent="5%"
         app:layout_marginTopPercent="0%"
-        app:layout_widthPercent="100%"
-
-        />
+        app:layout_widthPercent="100%"/>
 
     <!--Help button to speak out instructions-->
     <Button
@@ -36,9 +33,7 @@
         app:layout_heightPercent="8%"
         app:layout_marginLeftPercent="78%"
         app:layout_marginTopPercent="90%"
-        percent:layout_widthPercent="20%"
-
-        />
+        percent:layout_widthPercent="20%"/>
 
     <!--INSTRUCTIONS-->
     <TextView
@@ -53,9 +48,7 @@
         android:layout_marginLeft="0dp"
         android:layout_marginBottom="0dp"
         android:text='This is the College information page. Important Information is listed below. You can tap the bif button to open the website to view "The Trinity Centre for People with Intellectual Dissabilities"'
-        android:visibility="invisible"
-
-        />
+        android:visibility="invisible"/>
 
     <!--"Address:" heading-->
     <TextView
@@ -70,9 +63,7 @@
         app:layout_marginLeftPercent="0%"
         app:layout_marginRightPercent="2%"
         app:layout_marginTopPercent="12%"
-        app:layout_widthPercent="100%"
-
-        />
+        app:layout_widthPercent="100%"/>
 
     <!--Address info of Trinity-->
     <TextView
@@ -85,9 +76,8 @@
         app:layout_marginLeftPercent="5%"
         app:layout_marginRightPercent="2%"
         app:layout_marginTopPercent="18%"
-        app:layout_widthPercent="100%"
+        app:layout_widthPercent="100%"/>
 
-        />
     <!--Contact info of Trinity-->
     <TextView
         android:id="@+id/TCcontact"
@@ -98,11 +88,8 @@
         percent:layout_heightPercent="6%"
         percent:layout_marginLeftPercent="5%"
         percent:layout_marginRightPercent="2%"
-
         percent:layout_marginTopPercent="25%"
-        percent:layout_widthPercent="100%"
-
-        />
+        percent:layout_widthPercent="100%"/>
 
     <!--"Courses:" heading-->
     <TextView
@@ -117,9 +104,7 @@
         app:layout_marginLeftPercent="0%"
         app:layout_marginRightPercent="2%"
         app:layout_marginTopPercent="32%"
-        app:layout_widthPercent="100%"
-
-        />
+        app:layout_widthPercent="100%"/>
 
     <!--Courses list 1-->
     <TextView
@@ -132,9 +117,7 @@
         app:layout_marginLeftPercent="5%"
         app:layout_marginRightPercent="2%"
         app:layout_marginTopPercent="38%"
-        app:layout_widthPercent="100%"
-
-        />
+        app:layout_widthPercent="100%"/>
 
     <!--"Facilities:" heading-->
     <TextView
@@ -149,9 +132,7 @@
         app:layout_marginLeftPercent="0%"
         app:layout_marginRightPercent="2%"
         app:layout_marginTopPercent="50%"
-        app:layout_widthPercent="100%"
-
-        />
+        app:layout_widthPercent="100%"/>
 
     <!--Facilities Info-->
     <TextView
@@ -164,9 +145,7 @@
         app:layout_marginLeftPercent="5%"
         app:layout_marginRightPercent="2%"
         app:layout_marginTopPercent="55%"
-        app:layout_widthPercent="100%"
-
-        />
+        app:layout_widthPercent="100%"/>
 
     <!--Button to take you two Trinity colleges website-->
     <Button
@@ -181,11 +160,7 @@
         app:layout_marginLeftPercent="10%"
         app:layout_marginRightPercent="95%"
         app:layout_marginTopPercent="75%"
-        app:layout_widthPercent="80%"
-
-        />
-
-    <!--Tap logo, indication to tap-->
+        app:layout_widthPercent="80%"/>
 
     <!--Backbutton to go back to Moving College page-->
     <ImageButton
@@ -196,8 +171,6 @@
         app:layout_marginLeftPercent="4%"
         app:layout_marginRightPercent="78%"
         app:layout_marginTopPercent="90%"
-        app:layout_widthPercent="14%"
-
-        />
+        app:layout_widthPercent="14%"/>
 
 </android.support.percent.PercentRelativeLayout>

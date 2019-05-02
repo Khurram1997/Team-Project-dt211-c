@@ -18,9 +18,8 @@
         percent:layout_marginLeftPercent="40%"
         percent:layout_marginRightPercent="78%"
         percent:layout_marginTopPercent="88%"
-
         percent:layout_widthPercent="17%"
-        percent:srcCompat="@drawable/check" />
+        percent:srcCompat="@drawable/check"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -35,7 +34,7 @@
         percent:layout_marginLeftPercent="10%"
         percent:layout_marginRightPercent="50%"
         percent:layout_marginTopPercent="91%"
-        percent:layout_widthPercent="30%" />
+        percent:layout_widthPercent="30%"/>
 
     <TextView
         android:id="@+id/CollegeChecklistH"
@@ -48,13 +47,11 @@
         app:layout_marginLeftPercent="25%"
         app:layout_marginRightPercent="15%"
         app:layout_marginTopPercent="0%"
-        app:layout_widthPercent="100%"
-
-        />
+        app:layout_widthPercent="100%"/>
 
     <!--Help button to speak out instructions-->
     <Button
-        android:id="@+id/sayit6"
+        android:id="@+id/sayitpd"
         android:text="?"
         android:textSize="20sp"
 
@@ -62,23 +59,7 @@
         app:layout_heightPercent="8%"
         app:layout_marginLeftPercent="78%"
         app:layout_marginTopPercent="90%"
-        percent:layout_widthPercent="20%"
-
-        />
-
-    <!--Back button to take you back to Moving College page
-    <ImageButton
-        android:id="@+id/backbutton3"
-        app:srcCompat="@drawable/backbutton"
-
-        app:layout_heightPercent="8%"
-        app:layout_marginLeftPercent="4%"
-        app:layout_marginRightPercent="78%"
-        app:layout_marginTopPercent="90%"
-        app:layout_widthPercent="14%"
-
-        />
-        -->
+        percent:layout_widthPercent="20%"/>
 
     <Button
         android:id="@+id/button5"
@@ -91,8 +72,7 @@
         app:layout_marginLeftPercent="10%"
         app:layout_marginRightPercent="95%"
         app:layout_marginTopPercent="18%"
-
-        app:layout_widthPercent="82%" />
+        app:layout_widthPercent="82%"/>
 
     <Button
         android:id="@+id/button6"
@@ -105,9 +85,8 @@
         app:layout_heightPercent="14%"
         app:layout_marginLeftPercent="10%"
         app:layout_marginRightPercent="95%"
-
         app:layout_marginTopPercent="36%"
-        app:layout_widthPercent="82%" />
+        app:layout_widthPercent="82%"/>
 
     <Button
         android:id="@+id/button7"
@@ -119,9 +98,7 @@
         app:layout_marginLeftPercent="10%"
         app:layout_marginRightPercent="95%"
         app:layout_marginTopPercent="54%"
-        app:layout_widthPercent="82%"
-
-        />
+        app:layout_widthPercent="82%"/>
 
     <!--INSTRUCTIONS-->
     <TextView
@@ -136,8 +113,6 @@
         android:layout_marginLeft="0dp"
         android:layout_marginBottom="0dp"
         android:text="This is the Moving College Checklist page. Tap the Checklist button at the bottom to add things to a, To Do List."
-        android:visibility="invisible"
-
-        />
+        android:visibility="invisible"/>
 
 </android.support.percent.PercentRelativeLayout>

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HousingChecklist"
-    android:background="#ffffff" >
+    android:background="#ffffff">
 
     <!--Heading to indicate user can add tasks to a to do list-->
     <TextView
@@ -20,8 +20,7 @@
         app:layout_marginLeftPercent="10%"
         app:layout_marginRightPercent="50%"
         app:layout_marginTopPercent="91%"
-        app:layout_widthPercent="30%"
-        />
+        app:layout_widthPercent="30%"/>
 
     <!--Checklist button to go to todolist screen-->
     <ImageButton
@@ -32,9 +31,7 @@
         app:layout_marginLeftPercent="40%"
         app:layout_marginRightPercent="78%"
         app:layout_marginTopPercent="88%"
-        app:layout_widthPercent="17%"
-
-        />
+        app:layout_widthPercent="17%"/>
 
     <!--Housing checklist main heading-->
     <TextView
@@ -48,9 +45,7 @@
         app:layout_marginLeftPercent="20%"
         app:layout_marginRightPercent="15%"
         app:layout_marginTopPercent="0%"
-        app:layout_widthPercent="100%"
-
-        />
+        app:layout_widthPercent="100%"/>
 
     <!--Help button to read out instructions-->
     <Button
@@ -62,23 +57,7 @@
         app:layout_heightPercent="8%"
         app:layout_marginLeftPercent="78%"
         app:layout_marginTopPercent="90%"
-        percent:layout_widthPercent="20%"
-
-        />
-
-    <!--Backbutton to take you back to Moving College page
-    <ImageButton
-        android:id="@+id/backbutton"
-        app:srcCompat="@drawable/backbutton"
-
-        app:layout_heightPercent="8%"
-        app:layout_marginLeftPercent="4%"
-        app:layout_marginRightPercent="78%"
-        app:layout_marginTopPercent="90%"
-        app:layout_widthPercent="14%"
-
-        />
-        -->
+        percent:layout_widthPercent="20%"/>
 
     <!--First checklist category-->
     <Button
@@ -92,8 +71,7 @@
         app:layout_marginLeftPercent="10%"
         app:layout_marginRightPercent="95%"
         app:layout_marginTopPercent="18%"
-
-        app:layout_widthPercent="82%" />
+        app:layout_widthPercent="82%"/>
 
     <!--Second checklist category-->
     <Button
@@ -107,8 +85,7 @@
         app:layout_marginLeftPercent="10%"
         app:layout_marginRightPercent="95%"
         app:layout_marginTopPercent="36%"
-
-        app:layout_widthPercent="82%" />
+        app:layout_widthPercent="82%"/>
 
     <!--Third checklist category-->
     <Button
@@ -121,9 +98,8 @@
         app:layout_heightPercent="14%"
         app:layout_marginLeftPercent="10%"
         app:layout_marginRightPercent="95%"
-
         app:layout_marginTopPercent="54%"
-        app:layout_widthPercent="82%" />
+        app:layout_widthPercent="82%"/>
 
     <!--Fourth checklist category-->
     <Button
@@ -136,9 +112,7 @@
         app:layout_marginLeftPercent="10%"
         app:layout_marginRightPercent="95%"
         app:layout_marginTopPercent="72%"
-        app:layout_widthPercent="82%"
-
-        />
+        app:layout_widthPercent="82%"/>
 
     <!--INSTRUCTIONS-->
     <TextView
@@ -153,8 +127,6 @@
         android:layout_marginLeft="0dp"
         android:layout_marginBottom="0dp"
         android:text="This is the Moving House Checklist page. Tap the Checklist button at the bottom to add things to a, To Do List."
-        android:visibility="invisible"
-
-        />
+        android:visibility="invisible"/>
 
 </android.support.percent.PercentRelativeLayout>

@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     tools:context=".MovingHouse">
+
     <!--<![CDATA[
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,9 +27,7 @@
         app:layout_marginLeftPercent="25%"
         app:layout_marginRightPercent="15%"
         app:layout_marginTopPercent="0%"
-        app:layout_widthPercent="60%"
-
-        />
+        app:layout_widthPercent="60%"/>
 
     <!--Help button-->
     <Button
@@ -40,9 +39,7 @@
         app:layout_heightPercent="8%"
         app:layout_marginLeftPercent="78%"
         app:layout_marginTopPercent="90%"
-        percent:layout_widthPercent="20%"
-
-        />
+        percent:layout_widthPercent="20%"/>
 
     <!--INSTRUCTIONS-->
     <TextView
@@ -56,9 +53,7 @@
         android:layout_marginLeft="0dp"
         android:layout_marginBottom="0dp"
         android:text="This is the Housing page. Tap the tick for  the house checklist. Or tap the button under the My Home logo to open thier website."
-        android:visibility="invisible"
-
-        />
+        android:visibility="invisible"/>
 
     <!--Checklist button to go to checklist screen-->
     <ImageButton
@@ -69,9 +64,7 @@
         app:layout_marginLeftPercent="38%"
         app:layout_marginRightPercent="78%"
         app:layout_marginTopPercent="20%"
-        app:layout_widthPercent="17%"
-
-        />
+        app:layout_widthPercent="17%"/>
 
     <!--Checklist heading-->
     <TextView
@@ -86,9 +79,7 @@
         app:layout_marginLeftPercent="20%"
         app:layout_marginRightPercent="95%"
         app:layout_marginTopPercent="32%"
-        app:layout_widthPercent="65%"
-
-        />
+        app:layout_widthPercent="65%"/>
 
     <!--Myhome logo-->
     <ImageView
@@ -99,9 +90,7 @@
         app:layout_marginLeftPercent="10%"
         app:layout_marginRightPercent="95%"
         app:layout_marginTopPercent="50%"
-        app:layout_widthPercent="82%"
-
-        />
+        app:layout_widthPercent="82%"/>
 
     <!--Webutton to get to myhome.ie website-->
     <Button
@@ -114,8 +103,7 @@
         app:layout_marginRightPercent="95%"
         app:layout_marginTopPercent="75%"
         app:layout_widthPercent="76%"
-
-        />
+        android:background="@color/colorAccent"/>
 
     <!--Backbutton to o back to Hosuing Transition PAge-->
     <ImageButton
@@ -126,8 +114,6 @@
         app:layout_marginLeftPercent="4%"
         app:layout_marginRightPercent="78%"
         app:layout_marginTopPercent="90%"
-        app:layout_widthPercent="14%"
-
-        />
+        app:layout_widthPercent="14%"/>
 
 </android.support.percent.PercentRelativeLayout>

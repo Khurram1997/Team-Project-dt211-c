@@ -6,10 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MovingCollege"
-    android:background="#ffffff"
-    >
+    android:background="#ffffff">
 
-        <!--Moving College heading-->
+    <!--Moving College heading-->
     <TextView
         android:id="@+id/MCollegeh"
         android:text="College"
@@ -21,9 +20,7 @@
         app:layout_marginLeftPercent="25%"
         app:layout_marginRightPercent="15%"
         app:layout_marginTopPercent="0%"
-        app:layout_widthPercent="60%"
-
-        />
+        app:layout_widthPercent="60%"/>
 
         <!--Help button-->
         <Button
@@ -35,11 +32,9 @@
             app:layout_heightPercent="8%"
             app:layout_marginLeftPercent="78%"
             app:layout_marginTopPercent="90%"
-            percent:layout_widthPercent="20%"
+            percent:layout_widthPercent="20%"/>
 
-            />
-
-        <!--INSTRUCTIONS-->
+    <!--INSTRUCTIONS-->
     <TextView
         android:id="@+id/tv7"
         android:layout_width="93dp"
@@ -51,11 +46,9 @@
         android:layout_marginLeft="0dp"
         android:layout_marginBottom="0dp"
         android:text="This is the College page. Tap the tick to go to the College Checklist. Or tap the picture of Trinity to see information about Trinity College."
-        android:visibility="invisible"
+        android:visibility="invisible"/>
 
-        />
-
-        <!--Checklist heading-->
+    <!--Checklist heading-->
     <TextView
         android:id="@+id/checklistH"
         android:text="Checklist"
@@ -68,9 +61,7 @@
         app:layout_marginLeftPercent="20%"
         app:layout_marginRightPercent="95%"
         app:layout_marginTopPercent="32%"
-        app:layout_widthPercent="65%"
-
-        />
+        app:layout_widthPercent="65%"/>
 
         <!--Checklist button to go to College checklist-->
         <ImageButton
@@ -81,12 +72,10 @@
             app:layout_marginLeftPercent="38%"
             app:layout_marginRightPercent="78%"
             app:layout_marginTopPercent="20%"
-            app:layout_widthPercent="17%"
-
-            />
+            app:layout_widthPercent="17%"/>
 
 
-        <!--Trinity College heading-->
+    <!--Trinity College heading-->
     <TextView
         android:id="@+id/TrinityCH"
         android:text="trinity"
@@ -99,9 +88,7 @@
         app:layout_marginLeftPercent="28%"
         app:layout_marginRightPercent="75%"
         app:layout_marginTopPercent="75%"
-        app:layout_widthPercent="100%"
-
-        />
+        app:layout_widthPercent="100%"/>
 
         <!--Trinity Image Button to go to College Info page-->
         <ImageButton
@@ -112,9 +99,7 @@
             app:layout_marginLeftPercent="13%"
             app:layout_marginRightPercent="95%"
             app:layout_marginTopPercent="55%"
-            app:layout_widthPercent="75%"
-
-            />
+            app:layout_widthPercent="75%"/>
 
         <!--Backbutton to go back to College Transistion-->
         <ImageButton
@@ -125,8 +110,6 @@
             app:layout_marginLeftPercent="4%"
             app:layout_marginRightPercent="78%"
             app:layout_marginTopPercent="90%"
-            app:layout_widthPercent="14%"
-
-            />
+            app:layout_widthPercent="14%"/>
 
 </android.support.percent.PercentRelativeLayout>

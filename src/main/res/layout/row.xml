@@ -6,16 +6,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:background="#ffffff">
 
-    <!--"Things To Do" Heading
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Things To Do"
-        android:textColor="@android:color/black"
-        android:textSize="50sp"
-        android:textStyle="bold" />-->
-
     <TextView
         android:id="@+id/task_title"
         android:layout_width="wrap_content"
@@ -24,7 +14,7 @@
         android:layout_alignParentLeft="true"
         android:text="Example"
         android:textColor="#010620"
-        android:textSize="30sp" />
+        android:textSize="30sp"/>
 
     <Button
         android:id="@+id/btnDelete"
@@ -33,6 +23,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:onClick="deleteTask"
-        android:text="DELETE" />
+        android:text="DELETE"/>
 
 </RelativeLayout>

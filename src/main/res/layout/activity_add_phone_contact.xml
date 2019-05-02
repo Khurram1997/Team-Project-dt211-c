@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <!--Instructions (Bottom left of screen)-->
+    <TextView
+        android:id="@+id/tvaapc"
+        android:layout_width="93dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="This is the Phonebook page where you can Add a contact by entering the details; A Person's, Name and Phone Number. To Save the Number, click the Save Phone Contact Button"
+        android:visibility="invisible"/>
+
+    <!--Help Button-->
+    <Button
+        android:id="@+id/sayitaapc"
+        android:text="?"
+
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="78%"
+        app:layout_marginTopPercent="90%"
+        percent:layout_widthPercent="20%"/>
+
+    <!--Main heading for Phonebook Page/screen-->
+    <TextView
+        android:id="@+id/PhonebookH"
+        android:text="Phonebook"
+        android:textColor="@android:color/black"
+        android:textSize="45sp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="22%"
+        app:layout_marginRightPercent="15%"
+        app:layout_marginTopPercent="0%"
+        app:layout_widthPercent="60%"/>
+
+    <!--Save button: for user's entry to be saved-->
+    <Button
+        android:id="@+id/add_phone_contact_save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Phone Contact"
+        android:background="@color/colorAccent"
+
+
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="5%"
+        app:layout_marginTopPercent="70%"
+        app:layout_widthPercent="100%"/>
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--"Display Name" heading for user to enter name of their contact-->
+        <TextView
+            android:width="0dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Name : "
+            android:gravity="right"
+
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            percent:layout_heightPercent="6%"
+            percent:layout_marginLeftPercent="0%"
+            percent:layout_marginRightPercent="2%"
+
+            percent:layout_marginTopPercent="15%"
+            percent:layout_widthPercent="45%"/>
+
+        <EditText
+            android:id="@+id/add_phone_contact_display_name"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            percent:layout_heightPercent="8%"
+            percent:layout_marginLeftPercent="5%"
+            percent:layout_marginRightPercent="2%"
+
+            percent:layout_marginTopPercent="22%"
+            percent:layout_widthPercent="100%"/>
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--"Phone Number" heading for user to enter number of their contact-->
+        <TextView
+            android:width="0dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number : "
+            android:gravity="right"
+
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            percent:layout_heightPercent="6%"
+            percent:layout_marginLeftPercent="0%"
+            percent:layout_marginRightPercent="2%"
+            percent:layout_marginTopPercent="32%"
+            percent:layout_widthPercent="45%"/>
+
+        <EditText
+            android:id="@+id/add_phone_contact_number"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            percent:layout_heightPercent="8%"
+            percent:layout_marginLeftPercent="5%"
+            percent:layout_marginRightPercent="2%"
+            percent:layout_marginTopPercent="39%"
+            percent:layout_widthPercent="100%"/>
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--Phone Type: user can select; Home, Mobile etc.-->
+        <TextView
+            android:width="0dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Type : "
+            android:gravity="right"
+
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            percent:layout_heightPercent="6%"
+            percent:layout_marginLeftPercent="0%"
+            percent:layout_marginRightPercent="2%"
+            percent:layout_marginTopPercent="50%"
+            percent:layout_widthPercent="45%"/>
+
+        <Spinner
+            android:id="@+id/add_phone_contact_type"
+            android:layout_weight="1.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+
+            percent:layout_heightPercent="6%"
+            percent:layout_marginTopPercent="50%"
+            percent:layout_marginLeftPercent="48%"
+            percent:layout_widthPercent="75%"
+            percent:layout_marginRightPercent="2%"/>
+
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>

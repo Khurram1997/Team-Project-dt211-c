@@ -8,6 +8,7 @@
     android:background="#ffffff"
     tools:context=".Photodiary">
 
+    <!--Calender view-->
     <CalendarView
         android:id="@+id/calendarView"
 
@@ -15,10 +16,9 @@
         app:layout_marginLeftPercent="2%"
         app:layout_marginRightPercent="15%"
         app:layout_marginTopPercent="10%"
-        app:layout_widthPercent="100%"
+        app:layout_widthPercent="100%"/>
 
-        />
-
+    <!--Main heading at top of page-->
     <TextView
         android:id="@+id/textView"
         android:text="Photo Diary"
@@ -31,13 +31,11 @@
         app:layout_marginLeftPercent="25%"
         app:layout_marginRightPercent="15%"
         app:layout_marginTopPercent="0%"
-        app:layout_widthPercent="100%"
-
-        />
+        app:layout_widthPercent="100%"/>
 
     <!--Help button to speak out instructions-->
     <Button
-        android:id="@+id/sayit6"
+        android:id="@+id/sayitpd"
         android:text="?"
         android:textSize="20sp"
 
@@ -45,10 +43,23 @@
         app:layout_heightPercent="8%"
         app:layout_marginLeftPercent="78%"
         app:layout_marginTopPercent="90%"
-        percent:layout_widthPercent="20%"
+        percent:layout_widthPercent="20%"/>
 
-        />
+    <!--Instructions (Bottom left of screen)-->
+    <TextView
+        android:id="@+id/tvpd"
+        android:layout_width="93dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="This is the Photo Diary page, here you can see the days of the month. Also you can load and see photos from your phone's Image Gallery"
+        android:visibility="invisible" />
 
+    <!--Back button to go to previous screen-->
     <ImageButton
         android:id="@+id/PDbackbutton"
         app:srcCompat="@drawable/backbutton"
@@ -57,8 +68,35 @@
         app:layout_marginLeftPercent="4%"
         app:layout_marginRightPercent="78%"
         app:layout_marginTopPercent="90%"
-        app:layout_widthPercent="14%"
+        app:layout_widthPercent="14%"/>
 
-        />
+    <!--Button for user to click to put onclicklistener into action so that it prompts to open the gallery-->
+    <Button
+        android:id="@+id/butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendarView"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginRight="118dp"
+        android:layout_toStartOf="@+id/img"
+        android:layout_toLeftOf="@+id/img"
+        android:text="Button"
+        android:background="@color/colorAccent"/>
+
+    <!--Image view to display the image user selects-->
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="178dp"
+        android:layout_height="163dp"
+        android:layout_below="@+id/calendarView"
+        android:layout_alignEnd="@+id/calendarView"
+        android:layout_alignRight="@+id/calendarView"
+        android:layout_alignBottom="@+id/calendarView"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="-43dp"
+        android:layout_marginRight="-43dp"
+        android:layout_marginBottom="-259dp"
+        tools:srcCompat="@tools:sample/avatars"/>
 
 </android.support.percent.PercentRelativeLayout>
